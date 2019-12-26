@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-   "lint": "npm eslint --fix ."
+   "lint": "npx eslint --fix ."
 
   },
   "author": "",
