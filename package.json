@@ -2,9 +2,9 @@
   "name": "laba5",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "lint": "npx eslint --fix index.html"
+    "lint": "npx eslint --fix ."
   },
   "author": "",
   "license": "ISC",
