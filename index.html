@@ -1,28 +1,28 @@
 <HTML>
- <HEAD>
- <meta charset="utf-8"/>
- <title>Перший сценарій в HTML-документі</title>
- </HEAD>
- <BODY>
- <script>
- var a=8; 
- var h=10; /*Ініціюються дві змінні*/
- document.write ("Площа прямокутного трикутника = ", a*h/2,".")
+    <HEAD>
+    <title>Перша лабораторна робота</title>
+    <meta charset="utf-8"/>
+
+<script>
+const valr = 8;
+const vala = 3;
+const valb = 4;
+const Pi = 3.141;
+
+function area(r) {
+return Pi * r * r;
+}
+
+function hyp(a, b) {
+return Math.sqrt((a * a) + (b * b));
+}
+const res1 = area(valr);
+const res2 = hyp(vala, valb);
+
+
+document.write ("Площа круга = ", res1,". ")
+document.write ("Гіпотенуза трикутника = ", res2,". ")
  </script>
- <p>Для формування виводу користуємося методом write об’єкта document</p>
- 
- 
- <p>Обчислити площу круга за відомим радіусом</p>
- <script>
- var r=5
- document.write("Площа круга = ", Math.PI*r*r, ".")
- </script>
- 
- <p>Обчислити гіпотенузу за відомим катетом</p>
- <script>
- var a=3; 
- var b =4;
- document.write("Довжина гіпотенузи = ", Math.sqrt(a*a+b*b), ".")
- </script>
- </BODY>
- </HTML> 
+    </HEAD>
+    </BODY>
+</HTML> 
