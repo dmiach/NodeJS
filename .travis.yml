@@ -3,5 +3,10 @@ node_js:
  - node
 script:
  - npm run lint
+ after_success:
+ - npm run deploy
+  provider: firebase
+  project: miach-7e723
+  token: $FIREBASE_TOKEN
 notifications:
  email: false
