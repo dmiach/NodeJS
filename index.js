@@ -8,11 +8,10 @@ function area(r) {
 }
 
 function hyp(a, b) {
-    return Math.sqrt((a * a) + (b * b));
+    return Math.sqrt(a * a + b * b);
 }
 const res1 = area(valr);
 const res2 = hyp(vala, valb);
 
-
-document.write ("Площа круга = ", res1,". ")
-document.write ("Гіпотенуза трикутника = ", res2,". ")
+document.write('Площа круга = ', res1, '. ');
+document.write('Гіпотенуза трикутника = ', res2, '. ');
