@@ -27,6 +27,10 @@
   "devDependencies": {
     "husky": "^3.1.0",
     "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmiach/NodeJS.git"
   }
 
   
